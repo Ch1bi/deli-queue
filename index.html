@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Deli Queue</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <p>Local Deli Queue</p>
+
+    Customer's name: <input id="name" type="text"><br>
+    Customer's order: <input id="order" type="text">
+
+    <div class="buttons">
+
+    <button id="add">Add Order</button> <br>
+    <button id="cserved">Customer Served</button>
+
+    </div>
+    &nbsp;
+
+    <p id="served"></p>
+    
+
+<table id="myTable" border="1">
+
+            <tr>
+              <td>Pos</td>
+              <td>Name</td>
+              <td>Order</td>
+            </tr>
+            
+            <tr>
+            <td id="no" colspan="3">There are no customers in line</td>
+            </tr>
+
+
+          </table> 
+
+    <script src="index.js"></script>
+</html>
